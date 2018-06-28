@@ -1,1 +1,133 @@
 @charset "utf-8";
+
+// Color Palette
+$hexpurp: #727198;
+$hexdblu: #0394E7;
+$hexlblu: #3DDEFE;
+$hexlila: #D586F6;
+$hexrose: #FFCDDD;
+$rose: 255,205,221;
+$lila: 213,134,246;
+$lblu: 61,222,254;
+$dblu: 3,148,231;
+$purp: 114,113,152;
+
+
+
+.logo {
+  height:50px;
+  width:200px;
+  background-color: white;
+}
+
+#header{
+  background-color: rgba(255,205,221,1);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  
+  li {
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+      flex: 0 1 auto;
+      
+      a {
+          background-color: rgba(255,205,221,1);
+          font-family: Helvetica, sans-serif;
+          font-size: 20px;
+          color: black;
+          text-decoration: none;
+          padding: 10px 20px;
+          margin: 0 20px;
+          border-radius: 10px;
+      }
+      
+      a:hover {
+          background-color: rgba(255,205,255,1);
+      }
+      
+  }
+  
+  
+  ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 0px;
+      margin: 0px;
+  }
+  
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+body {
+  background-color: $hexpurp;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#who-we-are{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin: 0px;
+  
+  div {
+    height: 500px;
+    width: 1000px;
+    background-color: #d3d3d3;
+  }
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin: 0px;
+  
+  background-color: $hexlila;
+  width: auto;
+  
+  div {
+    height: 300px;
+    width: 250px;
+    background-color: gray;
+  }
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin: 0px;
+  
+  background:red;
+  width:auto;
+ div {
+   background-color: #d3d3d3;
+   height: 100px;
+   width: 1000px;
+   justify-content: center;
+ }
+}
+
+.email {
+  background-color: white;
+  height: 100px;
+  width: auto;
+} 

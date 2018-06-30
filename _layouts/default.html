@@ -6,44 +6,94 @@
     <title>enbede </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/main.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
   </head>
   
   <body>
-    <div class="site">
-      <div class="page">
-        
-        <header id="header">
-          <div class="logo">LOGO</div>
-          <nav id="nav-bar">
-              <ul>
-                  <li id="nav-link" ><a href="#">About Us</a></li>
-                  <li id="nav-link"><a href="#">Pricing</a></li>
-                  <li id="nav-link"><a href="#">Contact Us</a></li>
-              </ul>
-          </nal>
-        </header>
-        
-        <div id="who-we-are">
-          <div></div>
-        </div>
-        
-        <div id="pricing">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        
-        <div id="contact">
-          <div>Contact Us Today</div>
-          <div class="email">Your email address</div>
-        </div>
-        
-        <footer>
-          <p>Design and code &copy; 2018 Andy Lu</p>
-        </footer>
-        
+    <header id="header">
+      <div class="logo">
+        <i class="far fa-keyboard"></i> enbede
       </div>
-    </div>
+      <div class="spacer"></div>
+      <nav id="nav-bar">
+          <ul>
+              <li id="nav-link" ><a href="#sB">About Us</a></li>
+              <li id="nav-link"><a href="#sC">Pricing</a></li>
+              <li id="nav-link"><a href="#sD">Contact Us</a></li>
+          </ul>
+      </nav>
+    </header>
+    
+    <main id="main">
+      <!-- Video -->
+      <section id="sA" class="grid">
+        <div class="video">
+          <iframe
+            src="https://www.youtube.com/embed/5Peo-ivmupE" 
+            frameborder="0" allow="autoplay; encrypted-media" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+      
+      <!-- Points from Video-->
+      <section id="sB" class="grid">
+        <div class="vidPoint">
+          <i class="fas fa-user-edit"></i>
+          <p>tincidunt elit, eget sodales nisi. Integer iterdum tempor felis</p>
+        </div>
+        <div class="vidPoint">
+          <i class="fa fa-cogs"></i>
+          <p>tincidunt elit, eget sodales nisi. Integer iterdum tempor felis</p>
+        </div>
+        <div class="vidPoint">
+          <i class="fa fa-users"></i>
+          <p>posuere hendrerit purus pharetra vel. Aenan non hendrerit</p>
+        </div>
+      </section>
+      
+      <!-- Pricing -->
+      <section id="sC" class="grid">
+        <div class="card">
+          <h3>Free Tier</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipising elit. Fuse ut</p>
+        </div>
+        
+        <div class="card">
+          <h3>Pro Tier</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipising elit. Fuse ut</p>
+        </div>
+        
+        <div class="card">
+          <h3>Business Class</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipising elit. Fuse ut</p>
+        </div>
+      </section>
+      
+      <!-- Contact -->
+      <section id="sD" class="grid">
+        <div class="contentWrap">
+          <h2>Let us help you build your amazing business</h2>
+          <form id="form">
+            <input 
+              name="email" 
+              id="email" 
+              type="email" 
+              placeholder="Your Email Address" 
+            />
+            <input 
+              id="submit" 
+              type="submit" 
+              value="Let's chat!" 
+              class="btn">
+            </input>
+          </form>
+        </div>
+      </section>
+      
+    </main>
+    <footer>
+      <p>Design and code &copy; 2018 Andy Lu</p>
+    </footer>
   </body>
-
 </html>

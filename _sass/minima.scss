@@ -283,8 +283,15 @@ header {
 }
 
 footer {
+  
+  padding: 2em 1em;
+  
   background-color: $hexpurp;
   color: white;
+  
+  a {
+    color: $hexlblu;
+  }
 }
 /*
 @media (min-width: 321px){

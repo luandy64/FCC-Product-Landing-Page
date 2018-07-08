@@ -15,24 +15,13 @@ $hexrose: #FFCDDD;
 
 body {
   font-family: Helvetica, sans-serif;
-  //background-color: white;
   background-color: rgba(141, 128, 214, 0.1);
   color: #000;
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
 }
-/*
-h1, h2, h3 {
-  margin: 0;
-  padding: 1em 0;
-}
 
-p {
-  margin: 0;
-  padding: 1em 0;
-}
-*/
 a {
   text-decoration: none;
 }
@@ -40,9 +29,6 @@ a {
 li {
   list-style-type: none;
 }
-
-
-
 
 header {
   display: flex;
@@ -71,14 +57,11 @@ header {
   }
   
   a {
+    font-size: 1em;
     padding: 10px 10px;
     color: white;
     flex-wrap: nowrap;
     text-shadow: 0px 0px 5px black;
-  }
-  
-  a:hover{
-    //color: #f4f4f4;
   }
 }
 
@@ -90,7 +73,6 @@ header {
 
 #sA {
   margin-top: 160px;
-  //margin-bottom: 10px;
   
   .video {
     position: relative;
@@ -114,8 +96,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    //margin: 1.5em 0.75em;
-    //padding: 0.75em 0.375em;
     margin: 1.375em 0.375em;
     
     i {
@@ -133,7 +113,6 @@ header {
       margin: 0;
       line-height: 2.5em;
       word-spacing: 0.1em;
-      //text-shadow: 3px 2px 15px black;
       text-shadow: 0px 0px 5px black;
       font-weight: bold;
     }
@@ -142,30 +121,26 @@ header {
   #vp1 {
     background-color: $hexlila;
     color: white;
-    border-style: solid;
-    //border-width: 1.5em 0.75em 1.5em 0.75em;
-    border-width: 1em 0.5em;
-    //border-color: rgba(213, 134, 246, 0.1);
-    border-color: rgba(255, 255, 255, 0.2);
+    //border-style: solid;
+    //border-width: 1em 0.5em;
+    //border-color: rgba(255, 255, 255, 0.2);
   }
   
   #vp2 {
     background-color: $hexdblu;
     color: white;
-    border: 5px solid $hexdblu;
+    //border: 5px solid $hexdblu;
   }
   
   #vp3 {
     background-color: $hexpurp;
     color: white;
-    border: 5px solid $hexpurp;
+    //border: 5px solid $hexpurp;
   }
   
 }
 
 #sC {
-  
-  //background-color: black;
   display:flex;
   flex-direction: column;
   padding: 0.4em;
@@ -191,8 +166,6 @@ header {
   #free {
     h3 {
       border-color: $hexlblu;
-//      color: white;
-      //text-shadow: 0px 0px 5em $hexlblu;
     }
     
     border: 0.15em solid $hexlblu;
@@ -214,23 +187,9 @@ header {
     
     border: 0.15em solid $hexpurp;
   }
-  /*
-  background-color: $hexlblu;
-  margin: 1em;
-  padding: 1em 0;
-  border-radius: 1em;
-  
-  .card {
-    background-color: white;
-    padding: 1em;
-    margin: 1em 2em;
-    border-radius: 2em;
-  }
-  */
 }
 
 #sD {
-  //background-color: $hexlblu;
   color: $hexdblu;
 
   padding: 2em 1em;
@@ -238,17 +197,16 @@ header {
   
 
   h2 {
-    //padding-bottom: 1em;
+
     margin-bottom: 1em;
     margin-left: 0;
-    //text-shadow: 0px 1px 4px $hexpurp;
+
     background-color: white;
     
     box-shadow: 0px 2px 1px 2px $hexdblu;
   }
   
   #form {
-    //background-color: white;
     display: flex;
     align-content: center;
     justify-content: space-around;
@@ -294,150 +252,60 @@ footer {
     color: $hexlblu;
   }
 }
-/*
-@media (min-width: 321px){
+
+// Media Queries
+
+@media(min-width:768px){
   
   header {
-    flex-direction: row;
-  }
-  ul {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 0px 2em 0px 0px;
-    margin: 0px;
-  } 
-  
-  .logo {
-    padding: 0 0 0 2em;
-  }
-  
-  .spacer {
-    flex: 1;
-  }
-}
-*/
-/* OLD CODE
-.logo {
-  height:50px;
-  width:200px;
-  background-color: white;
-}
-
-#header{
-  background-color: rgba(255,205,221,1);
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  
-  li {
-      list-style-type: none;
-      padding: 0px;
-      margin: 0px;
-      flex: 0 1 auto;
-      
-      a {
-          background-color: rgba(255,205,221,1);
-          font-family: Helvetica, sans-serif;
-          font-size: 20px;
-          color: black;
-          text-decoration: none;
-          padding: 10px 20px;
-          margin: 0 20px;
-          border-radius: 10px;
-      }
-      
-      a:hover {
-          background-color: rgba(255,205,255,1);
-      }
-      
-  }
-  
-  
-  ul {
-      display: flex;
+    ul {
       flex-direction: row;
-      align-items: center;
-      justify-content: space-evenly;
-      padding: 0px;
-      margin: 0px;
+    }
+    
+    li {
+      padding: 0.25em 1.25em;
+      
+    }
+    
+    a {
+      font-size: 1.25em;
+    }
+  }
+ 
+  #sA {
+    margin-top: 105px;
   }
   
-}
-
-#nav-bar {
+  #sB { 
+    padding: 1em 6em;
+    
+    .vidPoint {
+      padding: 1em 4em;
+    }
+  }
+  
+  #sC {
+    padding: 0.5em 8em;
+    
+    .card {
+      p {
+        padding: 1em 5em;
+        text-align: center;
+      }
+    }
+  }
+  
+  #sD {
+    padding: 0.5em 6em;
+    margin: 2em 0em;
+    
+    h2 {
+      padding: 1.5em 1em;
+    }
+  }
+  
+  footer {
     display: flex;
-    align-items: center;
-}
-
-body {
-  background-color: $hexpurp;
-  max-width: 1024px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.main {
-  margin-top: 75px;
-}
-
-#who-we-are{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 0px;
-  margin: 0px;
-  
-  div {
-    height: 500px;
-    width: 1000px;
-    background-color: #d3d3d3;
+    justify-content: space-around;
   }
 }
-
-#pricing {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 0px;
-  margin: 0px;
-  
-  background-color: $hexlila;
-  width: auto;
-  
-  div {
-    height: 300px;
-    width: 250px;
-    background-color: gray;
-  }
-}
-
-#contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 0px;
-  margin: 0px;
-  
-  background:red;
-  width:auto;
- div {
-   background-color: #d3d3d3;
-   height: 100px;
-   width: 1000px;
-   justify-content: center;
- }
-}
-
-.email {
-  background-color: white;
-  height: 100px;
-  width: auto;
-} 
-*/

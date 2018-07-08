@@ -40,20 +40,7 @@ li {
   list-style-type: none;
 }
 
-.btn {
-  display: inline-block;
-  background: $hexlblu;
-  color: $hexdblu;
-  text-decoration: none;
-  padding: 1em 2em;
-  border: 1px solid #666;
-  margin: 0.5em 0;
-}
 
-.btn:hover {
-  background: $hexdblu;
-  color: #000;
-}
 
 
 header {
@@ -203,17 +190,20 @@ header {
   #free {
     h3 {
       border-color: $hexlblu;
+//      color: white;
+      //text-shadow: 0px 0px 5em $hexlblu;
     }
     
     border: 0.15em solid $hexlblu;
+    box-shadow: 0px 0px 1em $hexlblu;
   }
   
   #pro {
     h3 {
-      border-color: $hexrose;
+      border-color: $hexlila;
     }
     
-    border: 0.15em solid $hexrose;
+    border: 0.15em solid $hexlila;
   }
   
   #business {
@@ -239,24 +229,57 @@ header {
 }
 
 #sD {
-  background-color: $hexrose;
-  color: $hexlila;
-}
+  //background-color: $hexlblu;
+  color: $hexdblu;
 
-#form {
-  //background-color: white;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
+  padding: 2em 1em;
+  
+  
 
-#email {
-  //background
-  width: 100%;
-}
+  h2 {
+    //padding-bottom: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    //text-shadow: 0px 1px 4px $hexpurp;
+    background-color: white;
+    
+    box-shadow: 0px 2px 1px 2px $hexdblu;
+  }
+  
+  #form {
+    //background-color: white;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+  }
 
-#submit {
-  margin: 0;
+  #email {
+    border: none;
+    box-shadow: 0px 0px 1px 1px $hexdblu;
+    width: 100%;
+    padding: 1em;
+    margin-right: 3px;
+  }
+
+  .btn {
+    display: inline-block;
+    background: $hexdblu;
+    color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: 0.5em 0;
+    border: none;
+    box-shadow: 0px 0px 1px 1px white;
+  }
+
+  .btn:hover {
+    background: $hexrose;
+    color: #000;
+  }
+
+  #submit {
+    margin: 0;
+  }
 }
 
 footer {

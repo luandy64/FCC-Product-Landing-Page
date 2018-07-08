@@ -14,7 +14,6 @@ $hexrose: #FFCDDD;
 }
 
 body {
-  margin: 0;
   font-family: Helvetica, sans-serif;
   background-color: white;
   color: #000;
@@ -22,7 +21,7 @@ body {
   line-height: 1.5;
   text-align: center;
 }
-
+/*
 h1, h2, h3 {
   margin: 0;
   padding: 1em 0;
@@ -32,7 +31,7 @@ p {
   margin: 0;
   padding: 1em 0;
 }
-
+*/
 a {
   text-decoration: none;
 }
@@ -103,7 +102,7 @@ header {
 
 #sA {
   margin-top: 160px;
-  margin-bottom: 10px;
+  //margin-bottom: 10px;
   
   .video {
     position: relative;
@@ -123,16 +122,13 @@ header {
 }
 
 #sB {
-  background-color: white;
-  color:$hexlila;
-  
   .vidPoint{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1em 0.75em;
-    
-    
+    //margin: 1.5em 0.75em;
+    //padding: 0.75em 0.375em;
+    margin: 1.375em 0.375em;
     
     i {
       font-size: 2em;
@@ -158,7 +154,11 @@ header {
   #vp1 {
     background-color: $hexlila;
     color: white;
-    border: 5px solid $hexlila;
+    border-style: solid;
+    //border-width: 1.5em 0.75em 1.5em 0.75em;
+    border-width: 1em 0.5em;
+    //border-color: rgba(213, 134, 246, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
   }
   
   #vp2 {
@@ -176,16 +176,66 @@ header {
 }
 
 #sC {
+  
+  //background-color: black;
+  display:flex;
+  flex-direction: column;
+  padding: 0.4em;
+  
+  .card {
+    
+    padding: 1em 0;
+    margin: 1em;
+    
+    h3 {
+      display: inline;
+      padding-bottom: 0px;
+      border-bottom-style: solid;
+      border-width: 0.15em;
+    }
+    
+    p {
+      padding: 1em;
+      text-align: left;
+    }
+  }
+  
+  #free {
+    h3 {
+      border-color: $hexlblu;
+    }
+    
+    border: 0.15em solid $hexlblu;
+  }
+  
+  #pro {
+    h3 {
+      border-color: $hexrose;
+    }
+    
+    border: 0.15em solid $hexrose;
+  }
+  
+  #business {
+    h3 {
+      border-color: $hexpurp;
+    }
+    
+    border: 0.15em solid $hexpurp;
+  }
+  /*
   background-color: $hexlblu;
   margin: 1em;
   padding: 1em 0;
   border-radius: 1em;
+  
   .card {
     background-color: white;
     padding: 1em;
     margin: 1em 2em;
     border-radius: 2em;
   }
+  */
 }
 
 #sD {

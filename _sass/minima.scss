@@ -87,16 +87,18 @@ header {
     padding: 10px 10px;
     color: white;
     flex-wrap: nowrap;
+    text-shadow: 0px 0px 5px black;
   }
   
   a:hover{
-    color: #f4f4f4;
+    //color: #f4f4f4;
   }
 }
 
 .logo {
   font-size: 2em;
   color: white;
+  text-shadow: 0px 0px 5px black;
 }
 
 #sA {
@@ -128,24 +130,49 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.5em 0.75em;
+    margin: 1em 0.75em;
+    
+    
+    
     i {
-      font-size: 3em;
-
+      font-size: 2em;
       padding: 0.5em;
-      color: $hexdblu;
-      background-color: $hexrose;
+      color: white;
       align-content:  center;
       justify-content: center;
       border-radius: 10%;
+      text-shadow: 0px 0px 5px black;
     }
     
     p {
       padding: 0.75em 1em;
       margin: 0;
-      color: $hexpurp;
+      line-height: 2.5em;
+      word-spacing: 0.1em;
+      //text-shadow: 3px 2px 15px black;
+      text-shadow: 0px 0px 5px black;
+      font-weight: bold;
     }
   }
+  
+  #vp1 {
+    background-color: $hexlila;
+    color: white;
+    border: 5px solid $hexlila;
+  }
+  
+  #vp2 {
+    background-color: $hexdblu;
+    color: white;
+    border: 5px solid $hexdblu;
+  }
+  
+  #vp3 {
+    background-color: $hexpurp;
+    color: white;
+    border: 5px solid $hexpurp;
+  }
+  
 }
 
 #sC {

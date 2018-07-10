@@ -12,7 +12,6 @@ $maxWidth: 1024px;
 
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
 }
 
@@ -42,21 +41,21 @@ header {
   flex-direction: column;
   height: auto;
   max-width: $maxWidth;
-  min-height: 105px;
+  min-height: 6.5625em;
   position: fixed;
   top: 0;
   width: 100%;
   
   a {
     font-size: 1em;
-    padding: 10 10;
+    padding: 0.625em 0.625em;
     color: white;
     flex-wrap: nowrap;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 0.3125em black;
   }
   
   li {
-    margin: 5px;
+    margin: 0.3125em;
   }
   
   ul {
@@ -72,7 +71,7 @@ header {
 .logo {
   color: white;
   font-size: 2em;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 0.3125em black;
   
   p{
     display:inline;
@@ -80,12 +79,12 @@ header {
 } // end header
 
 #sA {
-  margin-top: 160;
+  margin-top: 9em;
   
   .video {
     height: 0;
   	padding-bottom: 56.25%; /* 16:9 */
-  	padding-top: 25px;
+  	padding-top: 1.5625em;
   	position: relative;
     
     iframe {
@@ -113,7 +112,7 @@ header {
       font-size: 2em;
       justify-content: center;
       padding: 0.5em;
-      text-shadow: 0 0 5px black;
+      text-shadow: 0 0 0.3125em black;
     }
     
     p {
@@ -121,7 +120,7 @@ header {
       line-height: 2.5em;
       margin: 0;
       padding: 0.75em 1em;
-      text-shadow: 0 0 5px black;
+      text-shadow: 0 0 0.3125em black;
       word-spacing: 0.1em; 
     }
   }
@@ -168,7 +167,7 @@ header {
     h3 {
       border-color: $hexlblu;
       color: $hexlblu;
-      text-shadow: 1px 1px 1px $hexdblu;
+      text-shadow: 0.0625em 0.0625em 0.0625em $hexdblu;
     }
     
     border: 0.15em solid $hexlblu;
@@ -182,7 +181,7 @@ header {
     h3 {
       border-color: $hexlila;
       color: $hexlila;
-      text-shadow: 1px 1px 1px $hexpurp;
+      text-shadow: 0.0625em 0.0625em 0.0625em $hexpurp;
     }
   }
   
@@ -193,7 +192,7 @@ header {
     h3 {
       border-color: $hexpurp;
       color: $hexpurp;
-      text-shadow: 1px 1px 1px gray;
+      text-shadow: 0.0625em 0.0625em 0.0625em gray;
     }
   }
 } // end #sC
@@ -204,7 +203,7 @@ header {
   
   h2 {
     background-color: white;
-    box-shadow: 0 2px 1px 2px $hexdblu;
+    box-shadow: 0 0.125em 0.0625em 0.125em $hexdblu;
     margin-bottom: 1em;
     margin-left: 0;
   }
@@ -217,8 +216,8 @@ header {
 
   #email {
     border: none;
-    box-shadow: 0 0 1px 1px $hexdblu;
-    margin-right: 3px;    
+    box-shadow: 0 0 0.0625em 0.0625em $hexdblu;
+    margin-right: 0.1875;    
     padding: 1em;
     width: 100%;
   }
@@ -226,7 +225,7 @@ header {
   .btn {
     background: $hexdblu;
     border: none;
-    box-shadow: 0 0 1px 1px white;
+    box-shadow: 0 0 0.0625em 0.0625em white;
     color: white;
     display: inline-block;
     margin: 0.5em 0;
@@ -271,7 +270,7 @@ footer {
   }
  
   #sA {
-    margin-top: 105px;
+    margin-top: 6.5625em;
   }
   
   #sB { 

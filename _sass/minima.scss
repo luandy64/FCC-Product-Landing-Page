@@ -10,7 +10,6 @@ $hexrose: #FFCDDD;
 // Page Limits
 $maxWidth: 1024px;
 
-
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +23,6 @@ body {
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
-  
   max-width: $maxWidth;
   margin: auto;
 }
@@ -44,9 +42,7 @@ header {
   position: fixed;
   top: 0;
   min-height: 105px;
-  
   background-color: $hexpurp;
-  
   width: 100%;
   max-width: $maxWidth;
   height: auto;
@@ -92,8 +88,6 @@ header {
   	padding-top: 25px;
   	height: 0;
     
-    
-    
     iframe {
     	position: absolute;
     	top: 0;
@@ -135,21 +129,17 @@ header {
   #vp1 {
     background-color: $hexlila;
     color: white;
-    //border-style: solid;
-    //border-width: 1em 0.5em;
-    //border-color: rgba(255, 255, 255, 0.2);
   }
   
   #vp2 {
     background-color: $hexdblu;
     color: white;
-    //border: 5px solid $hexdblu;
+
   }
   
   #vp3 {
     background-color: $hexpurp;
     color: white;
-    //border: 5px solid $hexpurp;
   }
   
 }
@@ -173,7 +163,6 @@ header {
     
     p {
       padding: 1em;
-      text-align: left;
     }
   }
   
@@ -189,42 +178,36 @@ header {
   }
   
   #pro {
+    border: 0.15em solid $hexlila;
+    box-shadow: 0px 0px 1em $hexlila;
+    
     h3 {
       border-color: $hexlila;
       color: $hexlila;
       text-shadow: 1px 1px 1px $hexpurp;
     }
-    
-    border: 0.15em solid $hexlila;
-    box-shadow: 0px 0px 1em $hexlila;
   }
   
   #business {
+    border: 0.15em solid $hexpurp;
+    box-shadow: 0px 0px 1em $hexpurp;
+    
     h3 {
       border-color: $hexpurp;
       color: $hexpurp;
       text-shadow: 1px 1px 1px gray;
     }
-    
-    border: 0.15em solid $hexpurp;
-    box-shadow: 0px 0px 1em $hexpurp;
   }
 }
 
 #sD {
   color: $hexdblu;
-
   padding: 2em 1em;
   
-  
-
   h2 {
-
     margin-bottom: 1em;
     margin-left: 0;
-
     background-color: white;
-    
     box-shadow: 0px 2px 1px 2px $hexdblu;
   }
   
@@ -264,9 +247,7 @@ header {
 }
 
 footer {
-  
   padding: 2em 1em;
-  
   background-color: $hexpurp;
   color: white;
   
@@ -276,7 +257,6 @@ footer {
 }
 
 // Media Queries
-
 @media(min-width:768px){
   
   header {
@@ -337,7 +317,6 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-evenly;
     
-    
     #free {
       grid-column: 1 / 2;
     }
@@ -351,18 +330,9 @@ footer {
     }
     
     .card {
-      /*
-      padding: 2em 2em;
-      
-      h3 {
-        margin: auto;
-        padding: 1em;
-      } */
-      
       p {
         padding: 1em 3em;
       }
     }
-    
   }
 }

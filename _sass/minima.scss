@@ -180,6 +180,8 @@ header {
   #free {
     h3 {
       border-color: $hexlblu;
+      color: $hexlblu;
+      text-shadow: 1px 1px 1px $hexdblu;
     }
     
     border: 0.15em solid $hexlblu;
@@ -189,17 +191,23 @@ header {
   #pro {
     h3 {
       border-color: $hexlila;
+      color: $hexlila;
+      text-shadow: 1px 1px 1px $hexpurp;
     }
     
     border: 0.15em solid $hexlila;
+    box-shadow: 0px 0px 1em $hexlila;
   }
   
   #business {
     h3 {
       border-color: $hexpurp;
+      color: $hexpurp;
+      text-shadow: 1px 1px 1px gray;
     }
     
     border: 0.15em solid $hexpurp;
+    box-shadow: 0px 0px 1em $hexpurp;
   }
 }
 
@@ -322,76 +330,39 @@ footer {
     justify-content: space-around;
   }
 }
-/*
+
 @media(min-width:1024px){
-  header{
-    padding: 1em 0 0 0;
-    flex-direction: row;
-    align-content: baseline;
-    justify-content:space-around;
-    min-height: 5em;
-    .logo{
-      //padding: 0.5em 0em;
-      padding: 0;
-      display: flex;
-      justify-content: flex-start;
-      align-items: baseline;
-      
-      p{
-        padding-left: 5px;
-      }
-      
-    }
-    
-    ul{
-      padding: 0em;
-      margin: 0;
-    }
-    
-    li {
-      padding: 0.5em 0em 0.5 1em;
-    }
-  }
-  
-  .desktop1{
+  #sC {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
     
-    grid-template-areas:
-      "left right";
-  }
-  
-  #sA {
-    background-color: gray;
-    grid-area: right;
     
-    margin: auto;
+    #free {
+      grid-column: 1 / 2;
+    }
     
-    .video {
-      position: relative;
-      padding: 0;
-    	height: 0;
+    #pro {
+      grid-column: 2 / 3;
+    }
+    
+    #business {
+      grid-column: 3 / 4;
+    }
+    
+    .card {
+      /*
+      padding: 2em 2em;
       
-      iframe {
-      	position: absolute;
-      	top: 0;
-      	left: auto;
-      	width: auto;
-        max-width: 512px;
-      	height: auto;
-        z-index: 1;
+      h3 {
+        margin: auto;
+        padding: 1em;
+      } */
+      
+      p {
+        padding: 1em 3em;
       }
     }
     
   }
-  
-  #sB {
-    grid-area: left;
-    background-color: green;
-    
-    max-width: 512px;
-  }
-  
 }
-*/

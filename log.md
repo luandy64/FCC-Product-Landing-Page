@@ -50,7 +50,7 @@ up today did not do it for me. Or work on making the entire site responsive and
 test it with `div`'s as placeholders.
 
 
-## Day NUM: 06/29/18
+## Day 17: 06/29/18
 
 ### Today's Progress:
 * Switched to a mobile-first approach
@@ -87,6 +87,44 @@ has been a great learning day!
 1. [How To Efficiently Master The CSS Grid In A Jiffy](https://medium.com/flexbox-and-grids/how-to-efficiently-master-the-css-grid-in-a-jiffy-585d0c213577)
 2. [Grid CSS Responsive Website Layout - "Mobile First" Design](https://www.youtube.com/watch?v=M3qBpPw77qo)
 
+
+## Day 23: 07/08/18
+
+### Today's Progress:
+* Updated the video to span the viewport width
+* Revamped the style of the whole page
+* Added media queries for scaling up to a iPad resolution
+
+## Day 24: 07/09/18
+
+### Today's Progress:
+* Finalized desktop view
+* Added a Grid in one section
+* Removed unused CSs
+* Removed most `px` in favor of `em`
+
+### Reflection:
+I forgot to update this log yesterday, so today's entry is a double reflection.
+
+The project is more or less done! I remember waking up yesterday and thinking I
+want to sit down for a bit and just work on this page. So I did, but then when 
+I checked the time, about 5 hours had passed and I had everything except the
+desktop view done. It felt like everything just clicked yesterday, I didn't
+have to google too many things. I was just writing the CSS that I wanted and
+things were happening like they were in my head. Having done this for so long,
+I am well aware that these good feelings are rare with coding. It's not
+discouraging, more motivating actually. It gives me something to strive for.
+
+Today, although I knew there wasn't too much more to do, I put off working on
+the project all day. I got a lot of other things done, but I was definitely
+choosing to avoid this project. Perhaps it was because I didn't know if it
+would be like yesterday. Regardless, I reminded myself that the point is to get
+something out that is "good enough", not perfect. With that in mind and the
+Chrome Dev Tools in hand, I played with the resolution until I was satisfied
+that every pixel was in its place. 
+
+I also uploaded this project on the feedback forums. Hopefully someone gives me
+some feedback, but in the mean time, I'm starting the next project.
 
 ---
 Template:
